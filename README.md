@@ -1,4 +1,4 @@
-# [MarvelVR Game Portfolio]
+# [Zombero Game Portfolio]
 
 
 ## 1. 프로젝트 소개
@@ -14,25 +14,20 @@
 
 </div>
 
-> + 장르 : 1인칭 VR 슈팅게임
->   
-> + K- 디지털 과정 수업을 들으며 진행한 프로젝트로, 사용자가 캡틴아메리카가 되어 사용자의 영웅 심리를 자극하는 게임입니다.
-> 방패를 던지거나 방패로 바닥을 찍어 적을 공격할 수 있습니다.  
-> 모든 적을 물리치고 스페이스 스톤을 획득하면 스테이지 클리어가 되고 다음 스테이지가 열립니다.
+> + 총 7일 동안 제작한 zombero:Hero Shooter  게임의 모작입니다.
 > 
-> + 개발기간: 2023.11.01 ~ 2024.01.15 ( 약 2개월 )
-> + 로드맵
-> <img src="https://github.com/user-attachments/assets/ea197567-2a41-4944-a5d5-185fc048605a" width="50%" height="140"/>
+> + 개인 프로젝트
+> 
+> + 개발기간: 2023.10.04 ~ 2023.10.11 (총 7일)
+
 
 <br>
 
 ## 2. 개발 환경
 
-+ 개발 엔진 : Unity 2022.3.5f1 
++ 개발 엔진 : Unity 3D
 
 + 언어 : C#
-
-+ 플랫폼 : oculus
 
 + 형상 관리: SVN
 
@@ -41,23 +36,16 @@
 ## 3. 사용 기술
 | 기술 | 설명 |
 |:---:|:---|
-| Oculus Interaction | Grab, OVRInput, Haptics, Hand Grab Pose, Ray |
-| Queue | 미션 UI의 팔로우 로직 및 방패 찍기 구현 |
-| Curved UI | scrollView와 더불어 캐릭터 선택 UI 구현 |
-| 라이트맵| 성능의 최적화를 위해 라이트맵을 이용하여 게임 맵 구성 |
-| 내적(Dot) | 방패 던지기 방향 구현 |
-| OverlapSphere | 반경 안에 있는 적 감지 |
-| Dotween | 방패 회전 구현 |
+| Nav | 보스가 플레이어 추격 |
+| 프리팹 | 총알 발사 |
+| 대리자 | 이벤트 전달 |
+| mathf 클래스 | 조이스틱으로 이동 구현 |
+| trail renderer | 총알 궤적 |
+| enum | 방패 회전 구현 |
 | Event Wrapper | 스페이스 스톤 획득 시 씬 전환 이벤트 처리 |
 
 <br>
 
-## 4. 개발 인원 및 담당
-
-+ 인원 : 총 2인 (프로그래머 2인)
-+ 담당 : 공중 적 생성 및 공격 패턴 , 캐릭터 선택 UI 제작 , 방패 던지기 , 막기 , 스페이스 스톤 획득, 사운드 , 합치기
-
-<br>
 
 ## 5. 핵심 기능
 
@@ -113,11 +101,9 @@
 
 <br>
 
-## 6. 기술 문서( 담당한 핵심기능 코드 포함)
-+ https://docs.google.com/presentation/d/1T0axGK3wXZ9rHkEpkYmO2pyhAodyl-_pG6aENf-RMZU/edit?hl=ko#slide=id.g2f0c2aa774c_0_13
 
 ## 7. 티스토리 개발일지
-+ https://syyeom1002.tistory.com/category/%EB%A7%88%EB%B8%94%20VR%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%A0%9C%EC%9E%91
++ https://syyeom1002.tistory.com/category/3D%20%EC%BD%98%ED%85%90%EC%B8%A0%20%EC%A0%9C%EC%9E%91
 
 
 ## 8. 플레이 영상
