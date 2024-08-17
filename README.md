@@ -5,16 +5,15 @@
 
 <div align="center">
 
-  <img src="https://github.com/user-attachments/assets/bbf87c18-8bb5-4f78-8f3b-89815df475c1" width="49%" height="280"/>
-  <img src="https://github.com/user-attachments/assets/a0516eea-442e-41ec-bed1-6819eab7db4c" width="49%" height="280"/>
-  <img src="https://github.com/user-attachments/assets/0a0f3334-245d-4794-94d4-1f2665892f00" width="49%" height="280"/>
-  <img src="https://github.com/user-attachments/assets/cdb9eb56-9511-4ea5-b8d5-fc3420dbd165" width="49%" height="280"/>
+  <img src="https://github.com/user-attachments/assets/7cd874bf-7f3b-4633-8c32-34ee0622d32c" width="30%" height="400"/>
+  <img src="https://github.com/user-attachments/assets/a8469f01-1979-4cb5-90ef-543c7e1e0d42" width="30%" height="400"/>
+  <img src="https://github.com/user-attachments/assets/88f2642e-693e-42f4-975c-eab6bc9261f5" width="30%" height="400"/>
 
   < 게임 플레이 사진 >
 
 </div>
 
-> + 총 7일 동안 제작한 zombero:Hero Shooter  게임의 모작입니다.
+> + 총 7일 동안 제작한 zombero:Hero Shooter  게임의 모작입니다. 
 > 
 > + 개인 프로젝트
 > 
@@ -36,13 +35,9 @@
 ## 3. 사용 기술
 | 기술 | 설명 |
 |:---:|:---|
-| Nav | 보스가 플레이어 추격 |
-| 프리팹 | 총알 발사 |
-| 대리자 | 이벤트 전달 |
-| mathf 클래스 | 조이스틱으로 이동 구현 |
-| trail renderer | 총알 궤적 |
-| enum | 방패 회전 구현 |
-| Event Wrapper | 스페이스 스톤 획득 시 씬 전환 이벤트 처리 |
+| NavMeshAgent  | 보스가 플레이어 추격 |
+| Prefab | Coroutine과 더불어 연속 총알 발사 구현 |
+| trail renderer | 총알 궤적 구현 |
 
 <br>
 
@@ -54,7 +49,7 @@
 <img src="https://github.com/user-attachments/assets/11cc95ff-1e0a-41db-99a3-302b18869e95" width="49%" height="280"/>
 
 + 조이스틱으로 이동 가능
-+ 이동을 멈추면 보스를 향해 공격
++ 이동을 멈추면 보스를 향해 총알 공격
 
 
 #### 보스 이동
@@ -65,8 +60,8 @@
 
 </div>
 
-+ Nav : 거리가 ~ 이하면 추격 
-+ Leap : Contoller의 A 버튼을 이용하여 이동 가능
++ 보스의 상태는 총 5가지 - 기본/ 이동/ 원거리 공격/ 근거리 공격/ 죽음
++ 플레이어가 추격 반경(30.0f) 내에 있으면 계속 플레이어를 향해 이동
 
 
 #### 보스 공격
@@ -77,27 +72,9 @@
 
 </div>
 
-+ 원거리 공격 : 거리가 ~ 이하면 원거리 공격
-+ 근접 공격 : 거리가 ~ 이하면 근접 공격 
++ 원거리 공격 : 플레이어가 원거리 공격 반경(10.0f) 안에 있으면 공을 던져 공격
++ 근접 공격 : 플레이어가 근거리 공격 반경(4.0f) 안에 있으면 도끼로 찍으며 공격
 
-
-#### 적
-<div align="center">
-
-  <img src="https://github.com/user-attachments/assets/681a87de-7626-4a73-904e-093a1984104b" width="49%" height="280"/>
-  <img src="https://github.com/user-attachments/assets/e2b303b9-a74e-4939-9d5d-6e0f50b46941" width="49%" height="280"/>
-
-</div>
-
-+ 공중적- 레이저 공격
-+ 지상적- 총알 공격 , 순간 빠른 속도로 이동
-
-
-#### 엔딩
-<img src="https://github.com/user-attachments/assets/04ec79d1-8c07-4b55-b1f4-5a899eb42117" width="49%" height="280"/>
-
-+ 모든 적을 물리치면 생성
-+ 스페이스 스톤 획득 시 씬 전환, 다음 스테이지 잠금 해제 
 
 <br>
 
