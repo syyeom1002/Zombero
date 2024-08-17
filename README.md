@@ -50,14 +50,14 @@
 ## 5. 핵심 기능
 
 
-#### 캐릭터 선택
+#### 플레이어 이동 및 공격
 <img src="https://github.com/user-attachments/assets/11cc95ff-1e0a-41db-99a3-302b18869e95" width="49%" height="280"/>
 
-+ Controller의 Thumbstick 으로 좌우 이동
-+ Controller의 A버튼 클릭하면 캐릭터 선택 완료, 게임씬으로 전환
++ 조이스틱으로 이동 가능
++ 이동을 멈추면 보스를 향해 공격
 
 
-#### 이동 시스템
+#### 보스 이동
 <div align="center">
 
   <img src="https://github.com/user-attachments/assets/0c9152d7-3a7b-4341-8474-9505adc12a4f" width="49%" height="280"/>
@@ -65,11 +65,11 @@
 
 </div>
 
-+ 자동 이동
++ Nav : 거리가 ~ 이하면 추격 
 + Leap : Contoller의 A 버튼을 이용하여 이동 가능
 
 
-#### 공격
+#### 보스 공격
 <div align="center">
 
   <img src="https://github.com/user-attachments/assets/e561759c-4568-4fc2-9fe4-ba2b972b0adb" width="49%" height="280"/>
@@ -77,8 +77,8 @@
 
 </div>
 
-+ 방패 던지기 : Controller의 HandTrigger버튼으로 조작 가능
-+ 방패 찍기 : Controller의 IndexTrigger 버튼으로 조작 가능
++ 원거리 공격 : 거리가 ~ 이하면 원거리 공격
++ 근접 공격 : 거리가 ~ 이하면 근접 공격 
 
 
 #### 적
@@ -107,6 +107,6 @@
 
 
 ## 8. 플레이 영상
-+ https://www.youtube.com/watch?v=FLcZElzEC0A&t
++ https://youtube.com/shorts/LLbA0BCrMRs
 
 ---
