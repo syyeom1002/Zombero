@@ -46,7 +46,7 @@
 
 
 #### 플레이어 이동 및 공격
-<img src="https://github.com/user-attachments/assets/11cc95ff-1e0a-41db-99a3-302b18869e95" width="49%" height="280"/>
+<img src="https://github.com/user-attachments/assets/2ad94bb3-12dd-4719-b92f-4201a610df97" width="30%" height="400"/>
 
 + 조이스틱으로 이동 가능
 + 이동을 멈추면 보스를 향해 총알 공격
