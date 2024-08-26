@@ -51,19 +51,13 @@
 + 조이스틱으로 이동 가능
 + 이동을 멈추면 보스를 향해 총알 공격
 
-![좀배로 애니메이터](https://github.com/user-attachments/assets/a92211bd-7f07-4949-a34d-2d274ca67afc)
-추격 : ![녹화_2024_08_26_17_13_49_436](https://github.com/user-attachments/assets/4a6cc928-d3b0-4760-80f6-f00c22ced2bb)
-죽음 : ![녹화_2024_08_26_17_46_41_512](https://github.com/user-attachments/assets/2d2bdcb5-6707-4431-9b00-313
-원거리 공격 : ![녹화_2024_08_26_17_47_26_679](https://github.com/user-attachments/assets/497a064b-1178-4cde-85b4-e7c6e6515b4f)
-근거리 공격 ![녹화_2024_08_26_17_47_36_219](https://github.com/user-attachments/assets/45eb7308-2d75-49ea-bcd7-a4ae3280588a)
-사진 캡처 : ![좀배로 원거리 근거리](https://github.com/user-attachments/assets/7514e76b-e90c-4d83-9cb9-fb35662b8ea5)
-0436ca4a8)
-#### 보스 이동
-<div align="center">
 
-  <img src="https://github.com/user-attachments/assets/a92211bd-7f07-4949-a34d-2d274ca67afc" width="49%" height="280"/>
+#### 보스 이동
+<div align="left">
+
   <img src="https://github.com/user-attachments/assets/4a6cc928-d3b0-4760-80f6-f00c22ced2bb" width="30%" height="400"/>
-  <img src="https://github.com/user-attachments/assets/2ad94bb3-12dd-4719-b92f-4201a610df97" width="30%" height="400"/>
+  <img src="https://github.com/user-attachments/assets/eef12ebe-0199-4e1f-a803-d75485a99837" width="30%" height="400"/>
+  <img src="https://github.com/user-attachments/assets/a92211bd-7f07-4949-a34d-2d274ca67afc" width="60%" height="280"/>
 
 </div>
 
@@ -72,10 +66,11 @@
 
 
 #### 보스 공격
-<div align="center">
+<div align="left">
 
-  <img src="https://github.com/user-attachments/assets/e561759c-4568-4fc2-9fe4-ba2b972b0adb" width="49%" height="280"/>
-  <img src="https://github.com/user-attachments/assets/a9fb460c-7c83-4f43-928b-f6cc181c6bed" width="49%" height="280"/>
+  <img src="https://github.com/user-attachments/assets/497a064b-1178-4cde-85b4-e7c6e6515b4f" width="30%" height="400"/>
+  <img src="https://github.com/user-attachments/assets/45eb7308-2d75-49ea-bcd7-a4ae3280588a" width="30%" height="400"/>
+  <img src="https://github.com/user-attachments/assets/7514e76b-e90c-4d83-9cb9-fb35662b8ea5" width="35%" height="400"/>
 
 </div>
 
